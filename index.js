@@ -7,6 +7,8 @@ const { parse } = require('querystring');
 let tasks = [
     { id: 1, task: 'Buy groceries', completed: false },
     { id: 2, task: 'Clean the house', completed: false },
+
+    
 ];
 
 // Function to handle incoming requests
