@@ -6,9 +6,7 @@ const { parse } = require('querystring');
 // In-memory store for tasks
 let tasks = [
     { id: 1, task: 'Buy groceries', completed: false },
-    { id: 2, task: 'Clean the house', completed: false },
-
-    
+    { id: 2, task: 'Clean the house', completed: false },    
 ];
 
 // Function to handle incoming requests
