@@ -17,8 +17,6 @@ const requestHandler = (req, res) => {
     // Set headers for the response
     res.setHeader('Content-Type', 'application/json');
 
-
-    
     // Routing based on URL and method
     if (parsedUrl.pathname === '/tasks') {
         if (method === 'GET') {
