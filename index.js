@@ -13,8 +13,6 @@ let tasks = [
 const requestHandler = (req, res) => {
     const parsedUrl = url.parse(req.url, true);
     const method = req.method;
-
-    
     
     // Set headers for the response
     res.setHeader('Content-Type', 'application/json');
